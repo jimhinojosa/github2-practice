@@ -1,0 +1,30 @@
+.colum2{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.firstrowcolum1{
+    background-color: red;
+}
+.firstrowcolum2{
+    background-color: blue;
+}
+.colum3{
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+.secondrowcolum1{
+    background-color: yellow;
+}
+.secondrowcolum2{
+    background-color: brown;
+}
+.secondrowcolum3{
+    background-color: aqua;
+}
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
